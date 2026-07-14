@@ -11,7 +11,7 @@ var app = builder.Build();
 app.UseDefaultFiles();
 app.MapStaticAssets();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline.asd
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
