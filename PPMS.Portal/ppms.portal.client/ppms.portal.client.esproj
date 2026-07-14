@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.4902498">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Vitest</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\assets\images\" />
+    <Folder Include="src\assets\icons\" />
+    <Folder Include="src\assets\fonts\" />
+    <Folder Include="src\assets\styles\" />
+    <Folder Include="src\features\dashboard\" />
+    <Folder Include="src\features\lookup\" />
+    <Folder Include="src\features\featuresmanagerment\" />
+    <Folder Include="src\features\finance\" />
+    <Folder Include="src\features\forecast\" />
+    <Folder Include="src\features\ai\" />
+    <Folder Include="src\features\documents\" />
+    <Folder Include="src\features\audit\" />
+    <Folder Include="src\features\notifications\" />
+    <Folder Include="src\features\risks\" />
+    <Folder Include="src\features\work-items\" />
+    <Folder Include="src\features\projects\" />
+    <Folder Include="src\features\resources\" />
+    <Folder Include="src\features\organization\" />
+    <Folder Include="src\features\security\" />
+  </ItemGroup>
+</Project>
