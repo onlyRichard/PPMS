@@ -1,7 +1,10 @@
+import AppProviders from "./providers/AppProviders";
+import AppRoutes from "../routes/AppRoutes";
+
 export default function App() {
     return (
-        <div>
-            <h1>HELLO MADER PADER</h1>
-        </div>
+        <AppProviders>
+            <AppRoutes />
+        </AppProviders>
     );
 }

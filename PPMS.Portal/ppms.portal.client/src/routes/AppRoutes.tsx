@@ -1,7 +1,23 @@
-function AppRouter() {
-  return (
-    <p>Hello world!</p>
-  );
-}
+import {
+    BrowserRouter,
+    Routes,
+    Route
+} from "react-router-dom";
 
-export default AppRouter;
+import MainLayout from "../layouts/MainLayout";
+import DashboardPage from "../features/dashboard/pages/DashboardPage";
+
+export default function AppRoutes() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route element={<MainLayout />}>
+                    <Route
+                        path="/"
+                        element={<DashboardPage />}
+                    />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    );
+}

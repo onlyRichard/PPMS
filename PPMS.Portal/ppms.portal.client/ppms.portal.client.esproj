@@ -9,8 +9,6 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="src\app\providers\" />
-    <Folder Include="src\assets\images\" />
     <Folder Include="src\assets\icons\" />
     <Folder Include="src\assets\fonts\" />
     <Folder Include="src\components\common\" />
@@ -25,7 +23,6 @@
     <Folder Include="src\features\dashboard\types\" />
     <Folder Include="src\features\dashboard\styles\" />
     <Folder Include="src\features\dashboard\services\" />
-    <Folder Include="src\features\dashboard\pages\" />
     <Folder Include="src\features\issues\" />
     <Folder Include="src\features\dependencies\" />
     <Folder Include="src\features\benefits\" />
@@ -64,7 +61,6 @@
     <Folder Include="src\features\tasks\" />
     <Folder Include="src\hooks\" />
     <Folder Include="src\models\" />
-    <Folder Include="src\modules\" />
     <Folder Include="src\services\modules\" />
     <Folder Include="src\store\" />
   </ItemGroup>
