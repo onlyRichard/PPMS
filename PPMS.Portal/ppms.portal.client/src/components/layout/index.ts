@@ -1,5 +1,12 @@
+export { default as DateRangePicker } from "./DateRangePicker";
 export { default as Logo } from "./Logo";
+export { default as MenuButton } from "./MenuButton";
+export { default as NotificationMenu } from "./NotificationMenu";
+export { default as PortfolioSelector } from "./PortfolioSelector";
+export { default as SearchBox } from "./SearchBox";
 export { default as Sidebar } from "./Sidebar";
-export { default as SidebarItem } from "./SidebarItem";
-export { default as SidebarGroup } from "./SidebarGroup";
 export { default as SidebarFooter } from "./SidebarFooter";
+export { default as SidebarGroup } from "./SidebarGroup";
+export { default as SidebarItem } from "./SidebarItem";
+export { default as UserProfileMenu } from "./UserProfileMenu";
+export { default as Topbar } from "./Topbar";
