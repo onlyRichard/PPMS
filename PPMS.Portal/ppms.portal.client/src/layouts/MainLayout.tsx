@@ -10,9 +10,15 @@
 
 import { Box } from "@mui/material";
 import { Outlet } from "react-router-dom";
-import { Sidebar } from "../components/layout";
+import { Sidebar, Topbar } from "../components/layout";
+
 
 export default function MainLayout() {
+    const currentUser = {
+        id: 1,
+        fullName: "Richard Pogi",
+        role: "System Administrator"
+    };
     return (
         <Box
             sx={{
@@ -33,20 +39,7 @@ export default function MainLayout() {
                     minWidth: 0
                 }}
             >
-                <Box
-                    sx={{
-                        height: 72,
-                        bgcolor: "#FFFFFF",
-                        borderBottom: "1px solid #E5E7EB",
-                        display: "flex",
-                        alignItems: "center",
-                        px: 4,
-                        fontWeight: 600,
-                        flexShrink: 0
-                    }}
-                >
-                    Topbar
-                </Box>
+                <Topbar user={currentUser} />
 
                 <Box
                     component="main"

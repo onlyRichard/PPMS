@@ -17,7 +17,6 @@
     <Folder Include="src\features\ai\models\" />
     <Folder Include="src\features\ai\pages\" />
     <Folder Include="src\features\ai\services\" />
-    <Folder Include="src\features\dashboard\components\" />
     <Folder Include="src\features\dashboard\hooks\" />
     <Folder Include="src\features\dashboard\models\" />
     <Folder Include="src\features\dashboard\types\" />
@@ -61,6 +60,7 @@
     <Folder Include="src\features\tasks\" />
     <Folder Include="src\hooks\" />
     <Folder Include="src\models\" />
+    <Folder Include="src\mocks\" />
     <Folder Include="src\services\modules\" />
     <Folder Include="src\store\" />
   </ItemGroup>
